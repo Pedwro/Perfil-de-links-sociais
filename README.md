@@ -17,8 +17,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solução: [Perfil-de-links-sociais](https://pedwro.github.io/Perfil-de-links-sociais/)
+- GitHub: [Repositorio](https://github.com/Pedwro/Perfil-de-links-sociais)
 
 ## Meu Processo
 
@@ -61,7 +61,7 @@ Estes recursos me ajudaram com flexbox e grid.
 
 ## Autor
 
-- Website - [Pedro Juliano]("#")
+- Website - [Pedro Juliano](https://pedwro.github.io/Perfil-de-links-sociais/)
 - Frontend Mentor - [@Pedwro](https://www.frontendmentor.io/profile/Pedwro)
 
 
