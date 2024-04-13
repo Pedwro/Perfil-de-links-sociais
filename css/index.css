@@ -1,0 +1,98 @@
+ html {
+    height: 100%;
+    font-family: 'Inter';
+}
+
+/*Para tornar o design responsivo*/
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color:  hsl(0, 0%, 100%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    height: 100%; 
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.card-text {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    overflow-y: hidden; /*hidden - cortar conteudo ou "auto" para barrade rolagem*/
+    list-style: none;  /*Remover os pontos da lista*/
+    padding-left: 0;
+    max-height: fit-content; /*Ajustar altura do conteudo*/
+}
+
+.redes-sociais li a {
+    width: 250px;
+    display: block;
+    color:  hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; /*Retirar o sublinhado*/
+}
+
+.minhas-redes  {
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(75, 94%, 57%);
+} 
